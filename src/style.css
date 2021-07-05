@@ -9,12 +9,28 @@ body
 {
     height: 100vh;
     font-family: 'Poppins';
+    background: rgb(36, 23, 54);
 }
 
 .webgl
 {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     outline: none;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    margin: 16em 5em;
+}
+
+p{
+    width: 40%;
+    color: azure;
+    margin: 0em 0em 2em 0em;    
 }
